@@ -8,5 +8,9 @@ namespace TestGit.Controllers
         {
             return View();
         }
+        public interface IActionResult
+        {
+            string Login { get; set; }
+        }
     }
 }
