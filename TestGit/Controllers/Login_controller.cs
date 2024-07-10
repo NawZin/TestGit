@@ -12,5 +12,8 @@ namespace TestGit.Controllers
         {
             string Login { get; set; }
         }
+        public IActionResult Error() { 
+            return View();
+        }
     }
 }
